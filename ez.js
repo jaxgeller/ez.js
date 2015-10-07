@@ -1,5 +1,3 @@
-// t: current time, b: begInnIng value, c: change In value, d: duration
-
 export function easeInQuad(t, b, c, d) {
   return c*(t/=d)*t + b;
 }
