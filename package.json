@@ -1,6 +1,6 @@
 {
   "name": "ez.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "easing functions in es6 syntax",
   "main": "ez.js",
   "scripts": {

@@ -47,3 +47,6 @@ for (let key of Object.keys(ez)) {
 Takes four parameters, `t: current time, b: beginning value, c: change in value, d: duration`.
 
 This will output a single number depending on how long the function has been running, this is great in conjunction with `requestAnimationFrame` to produce buttery animations.
+
+
+Easings from [Robert Penner](http://robertpenner.com/easing_terms_of_use.html)
