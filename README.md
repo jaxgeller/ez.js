@@ -2,6 +2,8 @@
 
 Importable easing functions in es6
 
+[![Build Status](https://travis-ci.org/jaxgeller/ez.js.svg?branch=master)](https://travis-ci.org/jaxgeller/ez.js)
+
 
 ### Install
 
