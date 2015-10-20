@@ -1,6 +1,6 @@
 ### ez.js
 
-Importable easing functions in es6
+Importable easing functions in ES6
 
 [![Build Status](https://travis-ci.org/jaxgeller/ez.js.svg?branch=master)](https://travis-ci.org/jaxgeller/ez.js)
 
@@ -40,6 +40,13 @@ import * as ez from "./ez.js"
 for (let key of Object.keys(ez)) {
   alert(ez[key](100, 0, 10, 1000));
 }
+```
+
+Use as non-ES6
+
+```javascript
+// download minified dist file and add it as a script
+<script src="dist.min.js"></script>
 ```
 
 ### Using easing functions

@@ -1,10 +1,12 @@
 {
   "name": "ez.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "easing functions in es6 syntax",
-  "main": "ez.js",
+  "main": "dist.js",
   "scripts": {
-    "test": "mocha --compilers js:babel/register"
+    "test": "mocha --compilers js:babel/register",
+    "release": "browserify -t babelify --standalone Ez ez.js -o dist.js",
+    "build": "browserify -t babelify -t uglifyify --standalone Ez ez.js -o dist.min.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,10 @@
   "homepage": "https://github.com/jaxgeller/ez.js#readme",
   "devDependencies": {
     "babel": "^5.8.23",
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
     "chai": "^3.3.0",
-    "mocha": "^2.3.3"
+    "mocha": "^2.3.3",
+    "uglifyify": "^3.0.1"
   }
 }
